@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <title>Search bar</title>
+</head>
+<body>
+    <section class="container">
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="Search product" id="search-item" placeholder="Search..." onkeyup="search()">
+        </form>
+
+        <div class="suggestion-list" id="suggestion-list"></div>
+
+        <div class="product-list" id="product-list">
+            <div class="product" id="product-1">
+                <img src="iphone13.jpg" alt="iPhone 13">
+                <div class="p-details">
+                    <h2>Apple iPhone 13</h2>
+                    <h4>Seller Name: Amazon</h4>
+                    <h4>Available Stock: 500</h4>
+                    <h4>Item Cost: $799</h4>
+                    <h4>Cost Till Date: $399500</h4>
+                    <h4>Selling Price: $849</h4>
+                    <h4>Available Stock With You: 200</h4>
+                    <h4>Quantity: 2</h4>
+                    <h4>Total Price: $1698</h4>
+                </div>
+            </div>
+            
+            <div class="product" id="product-1">
+                <img src="iphone_11" alt="iPhone 11">
+                <div class="p-details">
+                    <h2>Apple iPhone 11</h2>
+                    <h4>Seller Name: sama</h4>
+                    <h4>Available Stock: 500</h4>
+                    <h4>Item Cost: $799</h4>
+                    <h4>Cost Till Date: $399500</h4>
+                    <h4>Selling Price: $849</h4>
+                    <h4>Available Stock With You: 200</h4>
+                    <h4>Quantity: 2</h4>
+                    <h4>Total Price: $1698</h4>
+                </div>
+            </div>
+
+            <div class="product" id="product-1">
+                <img src="iphone_12.png" alt="iPhone 12">
+                <div class="p-details">
+                    <h2>Apple iPhone 12</h2>
+                    <h4>Seller Name: aniya</h4>
+                    <h4>Available Stock: 500</h4>
+                    <h4>Item Cost: $799</h4>
+                    <h4>Cost Till Date: $399500</h4>
+                    <h4>Selling Price: $849</h4>
+                    <h4>Available Stock With You: 200</h4>
+                    <h4>Quantity: 2</h4>
+                    <h4>Total Price: $1698</h4>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="tv" alt="">
+                <div class="p-details">
+                    <h2>Samsung 4K Smart TV</h2>
+                    <h4>seller_name: "Best Buy",</h4>
+                    <h4> available_stock: 200,</h4>
+                    <h4>item_cost: 999,</h4>
+                    <h4>cost_till_date: 199800,</h4>
+                    <h4>selling_price: 1099,</h4>
+                    <h4>available_stock_with_you: 100,</h4>
+                    <h4>quantity: 3,</h4>
+                    <h4>total_price: 3297</h4>
+                    
+    
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="nike" alt="">
+                <div class="p-details">
+                    <h2>Nike Air Max 270</h2>
+                    <h4>seller_name: "Foot Locker",</h4>
+                    <h4> available_stock: 300,</h4>
+                    <h4>item_cost: 129,</h4>
+                    <h4>cost_till_date: 38700,</h4>
+                    <h4>selling_price: 149,</h4>
+                    <h4>available_stock_with_you: 150,</h4>
+                    <h4>quantity: 1,</h4>
+                    <h4>total_price: 149</h4>
+                    
+    
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="laptop" alt="">
+                <div class="p-details">
+                    <h2>Dell XPS 13 Laptop</h2>
+                    <h4>seller_name: "Dell",</h4>
+                    <h4> available_stock: 400,</h4>
+                    <h4>item_cost: 1299,</h4>
+                    <h4>cost_till_date: 519600,</h4>
+                    <h4>selling_price: 1399,</h4>
+                    <h4>available_stock_with_you: 200,</h4>
+                    <h4>quantity: 2,</h4>
+                    <h4>total_price: 2798</h4>
+                    
+    
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="canon" alt="">
+                <div class="p-details">
+                    <h2>Canon EOS Rebel Camera</h2>
+                    <h4>seller_name: "B&H Photo",</h4>
+                    <h4> available_stock: 250,</h4>
+                    <h4>item_cost: 799,</h4>
+                    <h4>cost_till_date: 199750,</h4>
+                    <h4>selling_price: 849,</h4>
+                    <h4>available_stock_with_you: 125,</h4>
+                    <h4>quantity: 3,</h4>
+                    <h4>total_price: 2547</h4>
+                    
+    
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="headphone.avif" alt="">
+                <div class="p-details">
+                    <h2>Sony WH-1000XM4 Headphones</h2>
+                    <h4>seller_name: "Sony",</h4>
+                    <h4> available_stock: 500,</h4>
+                    <h4>item_cost: 349,</h4>
+                    <h4>cost_till_date: 122150,</h4>
+                    <h4>selling_price: 379,</h4>
+                    <h4>available_stock_with_you: 175,</h4>
+                    <h4>quantity: 2,</h4>
+                    <h4>total_price: 758</h4>
+                    
+    
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="chocolate.jpg" alt="">
+                <div class="p-details">
+                    <h2>ferrero rocher chocolate</h2>
+                    <h4>seller_name: "ferrero",</h4>
+                    <h4> available_stock: 300,</h4>
+                    <h4>item_cost: 1000,</h4>
+                    <h4>cost_till_date: 122150,</h4>
+                    <h4>selling_price: 999,</h4>
+                    <h4>available_stock_with_you: 170,</h4>
+                    <h4>quantity: 1,</h4>
+                    <h4>total_price: 999</h4>
+                    
+    
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="cupcakes.jpg" alt="">
+                <div class="p-details">
+                    <h2>cupcakes </h2>
+                    <h4>seller_name: "zamid",</h4>
+                    <h4> available_stock: 100,</h4>
+                    <h4>item_cost: 100,</h4>
+                    <h4>cost_till_date: 122150,</h4>
+                    <h4>selling_price: 100,</h4>
+                    <h4>available_stock_with_you: 100,</h4>
+                    <h4>quantity: 3,</h4>
+                    <h4>total_price: 300</h4>
+                    
+    
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="t shiet" alt="">
+                <div class="p-details">
+                    <h2>T-shirt </h2>
+                    <h4>seller_name: "man",</h4>
+                    <h4> available_stock: 500,</h4>
+                    <h4>item_cost: 500,</h4>
+                    <h4>cost_till_date: 122150,</h4>
+                    <h4>selling_price: 400,</h4>
+                    <h4>available_stock_with_you: 900,</h4>
+                    <h4>quantity: 2,</h4>
+                    <h4>total_price: 800</h4>
+                    
+    
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
